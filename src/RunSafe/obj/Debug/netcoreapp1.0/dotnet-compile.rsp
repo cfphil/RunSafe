@@ -1,5 +1,5 @@
---temp-output:c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\obj\Debug\netcoreapp1.0\
---out:c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\bin\Debug\netcoreapp1.0\RunSafe.dll
+--temp-output:C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\obj\Debug\netcoreapp1.0\
+--out:C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\bin\Debug\netcoreapp1.0\RunSafe.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -223,38 +223,40 @@
 --reference:C:\Users\philip.munro\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\philip.munro\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\philip.munro\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\obj\Debug\netcoreapp1.0\RunSafedotnet-compile.deps.json",RunSafe.deps.json
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Program.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Startup.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Controllers\AccountController.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Controllers\HomeController.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Controllers\ManageController.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Data\ApplicationDbContext.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Data\AssetContext.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Data\dbInitialiser.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Data\Migrations\00000000000000_CreateIdentitySchema.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Data\Migrations\00000000000000_CreateIdentitySchema.Designer.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Data\Migrations\ApplicationDbContextModelSnapshot.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\ApplicationUser.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\Person.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\Ping.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\Relation.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\AccountViewModels\ExternalLoginConfirmationViewModel.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\AccountViewModels\ForgotPasswordViewModel.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\AccountViewModels\LoginViewModel.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\AccountViewModels\RegisterViewModel.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\AccountViewModels\ResetPasswordViewModel.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\AccountViewModels\SendCodeViewModel.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\AccountViewModels\VerifyCodeViewModel.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\AddPhoneNumberViewModel.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\ChangePasswordViewModel.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\ConfigureTwoFactorViewModel.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\FactorViewModel.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\IndexViewModel.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\ManageLoginsViewModel.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\RemoveLoginViewModel.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\SetPasswordViewModel.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\VerifyPhoneNumberViewModel.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Services\IEmailSender.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Services\ISmsSender.cs
-c:\Users\philip.munro\documents\visual studio 2015\Projects\RunSafe\src\RunSafe\Services\MessageServices.cs
+--resource:"C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\obj\Debug\netcoreapp1.0\RunSafedotnet-compile.deps.json",RunSafe.deps.json
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Program.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Startup.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Controllers\AccountController.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Controllers\HomeController.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Controllers\ManageController.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Controllers\PeopleController.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Controllers\PingsController.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Data\ApplicationDbContext.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Data\AssetContext.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Data\dbInitialiser.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Data\Migrations\00000000000000_CreateIdentitySchema.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Data\Migrations\00000000000000_CreateIdentitySchema.Designer.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Data\Migrations\ApplicationDbContextModelSnapshot.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\ApplicationUser.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\Person.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\Ping.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\Relation.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\AccountViewModels\ExternalLoginConfirmationViewModel.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\AccountViewModels\ForgotPasswordViewModel.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\AccountViewModels\LoginViewModel.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\AccountViewModels\RegisterViewModel.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\AccountViewModels\ResetPasswordViewModel.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\AccountViewModels\SendCodeViewModel.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\AccountViewModels\VerifyCodeViewModel.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\AddPhoneNumberViewModel.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\ChangePasswordViewModel.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\ConfigureTwoFactorViewModel.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\FactorViewModel.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\IndexViewModel.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\ManageLoginsViewModel.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\RemoveLoginViewModel.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\SetPasswordViewModel.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Models\ManageViewModels\VerifyPhoneNumberViewModel.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Services\IEmailSender.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Services\ISmsSender.cs
+C:\Users\philip.munro\Documents\Visual Studio 2015\Projects\RunSafe\src\RunSafe\Services\MessageServices.cs

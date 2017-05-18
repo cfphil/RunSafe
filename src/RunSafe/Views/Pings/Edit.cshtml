@@ -1,0 +1,71 @@
+@model RunSafe.Models.Ping
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<form asp-action="Edit">
+    <div class="form-horizontal">
+        <h4>Ping</h4>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Ping_ID" />
+        <div class="form-group">
+            <label asp-for="battery" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="battery" class="form-control" />
+                <span asp-validation-for="battery" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="datetime_logged" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="datetime_logged" class="form-control" />
+                <span asp-validation-for="datetime_logged" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="datetime_stored" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="datetime_stored" class="form-control" />
+                <span asp-validation-for="datetime_stored" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="latitude" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="latitude" class="form-control" />
+                <span asp-validation-for="latitude" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="longtitude" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="longtitude" class="form-control" />
+                <span asp-validation-for="longtitude" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="signal" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="signal" class="form-control" />
+                <span asp-validation-for="signal" class="text-danger" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

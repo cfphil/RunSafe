@@ -1,0 +1,64 @@
+@model RunSafe.Models.Ping
+
+@{
+    ViewData["Title"] = "Details";
+
+    var test = 1;
+    var latitude = Model.latitude.ToString();
+    var longitude = Model.longtitude.ToString();
+    var apiKey = "AIzaSyDhDjSHXt4nVRycy9-m53hFni-STgDf6Vg";
+    var imageURL = "https://maps.googleapis.com/maps/api/staticmap?center=" + latitude + ","+ longitude
+                        +"&zoom=15&size=500x300&maptype=roadmap"
+                        + "&markers=color:blue%7Clabel:S%7C" + latitude + "," + longitude
+                        + "&key="+ apiKey;
+}
+
+<h2>Details</h2>
+<div>
+    <h4>Ping</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.battery)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.battery)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.datetime_logged)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.datetime_logged)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.datetime_stored)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.datetime_stored)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.latitude)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.latitude)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.longtitude)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.longtitude)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.signal)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.signal)
+        </dd>
+    </dl>
+
+    <img src="@imageURL" />
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Ping_ID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

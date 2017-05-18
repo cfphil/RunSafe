@@ -1,0 +1,65 @@
+@model IEnumerable<RunSafe.Models.Ping>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.battery)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.datetime_logged)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.datetime_stored)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.latitude)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.longtitude)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.signal)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.battery)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.datetime_logged)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.datetime_stored)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.latitude)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.longtitude)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.signal)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Ping_ID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Ping_ID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Ping_ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

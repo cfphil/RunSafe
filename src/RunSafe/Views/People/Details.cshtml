@@ -1,0 +1,42 @@
+@model RunSafe.Models.Person
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Person</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MobileNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.MobileNumber)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.firstname)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.firstname)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.lastname)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.lastname)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Person_ID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
